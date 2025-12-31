@@ -33,7 +33,7 @@ cd agro-medknow-nexus
 It is recommended to use a virtual environment to manage dependencies.
 
 
-python -m venv venv
+🔹python -m venv venv
  
 venv\Scripts\activate
  
@@ -43,7 +43,7 @@ source venv/bin/activate
   
 Create a requirements.txt file (if not present) or install the core packages:
  
-pip install flask flask-sqlalchemy
+🔹pip install flask flask-sqlalchemy
 
 ## 📌 Setup your Database 
  
@@ -54,7 +54,7 @@ db.create_all()
 
 ## 📌 Run The Application 
 
-python app.py
+🔹python app.py
 
 ## 📌 Click into the website 
    
