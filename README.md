@@ -32,13 +32,11 @@ cd agro-medknow-nexus
   
 It is recommended to use a virtual environment to manage dependencies.
 
-# Create the environment
-python -m venv venv
 
-# Activate it
-# On Windows:
+python -m venv venv
+ 
 venv\Scripts\activate
-# On macOS/Linux:
+ 
 source venv/bin/activate
  
 ## 📌 Install Dependencies 
