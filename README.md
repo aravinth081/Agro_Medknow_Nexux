@@ -49,7 +49,7 @@ Create a requirements.txt file (if not present) or install the core packages:
  
 Initialize your database models (run this in a Python shell or via a setup script):
 
-from app import db
+🔹from app import db
 db.create_all()
 
 ## 📌 Run The Application 
