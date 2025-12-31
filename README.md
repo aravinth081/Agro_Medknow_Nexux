@@ -21,3 +21,43 @@ Frontend: HTML5, CSS3, and modern JavaScript (ES6+).
 Styling: Bootstrap 5 for responsive design and components.
 
 Icons: Font Awesome.
+   
+
+## 🚀 CLONE THE REPOSITORY 
+      
+git clone [https://github.com/your-username/agro-medknow-nexus.git](https://github.com/your-username/agro-medknow-nexus.git)
+cd agro-medknow-nexus
+
+## 📌 CREATE THE VIRTUAL ENVIRONMENT
+  
+It is recommended to use a virtual environment to manage dependencies.
+
+# Create the environment
+python -m venv venv
+
+# Activate it
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+ 
+## 📌 INSTALL DEPENDENCIES
+  
+Create a requirements.txt file (if not present) or install the core packages:
+ 
+pip install flask flask-sqlalchemy
+
+## 📌 SET UP YOUR DATABASE 
+ 
+Initialize your database models (run this in a Python shell or via a setup script):
+
+from app import db
+db.create_all()
+
+## 📌 RUN THE APPLICATION 
+
+python app.py
+
+## 📌 CLICK INTO WEBSITE 
+   
+Your application will be available at: http://127.0.0.1:5000/
